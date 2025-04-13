@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+  background-image: url('../imagens/fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+/* Título */
+.bonnie-titulo {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 30px 0;
+  color: #B266FF;
+  text-shadow: 0 0 10px #B266FF;
+}
+
+/* Container principal */
+.bonnie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #B266FF;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #B266FF;
+}
+
+/* Imagem do Bonnie */
+.bonnie-imagem img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #B266FF;
+}
+
+/* Área de vídeo e texto */
+.bonnie-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* GIF do jumpscare */
+.bonnie-video {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #B266FF;
+}
+
+/* Caixa “Como Derrotá-lo” */
+.bonnie-derrotar {
+  max-width: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px dotted #B266FF;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px #B266FF;
+  text-align: left;
+}
+.bonnie-derrotar h2 {
+  margin: 0 0 10px;
+  color: #B266FF;
+  text-shadow: 0 0 5px #B266FF;
+}
+.bonnie-derrotar p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Botão Voltar */
+.bonnie-voltar {
+  display: block;
+  margin: 20px auto 0;
+  padding: 12px 25px;
+  background-color: #1a3f8f;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgb(0, 217, 255), 0 0 20px rgb(0, 238, 255);
+  transition: background 0.3s, transform 0.2s;
+}
+.bonnie-voltar:hover {
+  background-color: #07d7fc;
+  transform: scale(1.05);
+}
+
+  
+
+

@@ -1,0 +1,161 @@
+/* =======================
+   FONTE GERAL
+========================== */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* =======================
+   ESTILO GERAL
+========================== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* =======================
+   PÁGINA INICIAL
+========================== */
+
+body.pagina-inicial {
+    background-image: url('../imagens/fundo.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    font-family: 'Press Start 2P', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.caixa-principal {
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 3px solid red;
+    box-shadow: 0 0 15px red;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+   
+.titulo {
+    font-size: 36px;
+    color: #ced112;
+    text-align: center;
+    text-shadow: 0 0 8px #dbd810, 0 0 12px #cecb11;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 25px;
+}
+
+
+.logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 18px;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.legenda {
+    font-size: 14px;
+    color: #FFD700;
+    font-weight: bold;
+    text-shadow: 0 0 6px #FFD700;
+    margin-bottom: 30px;
+}
+
+
+.lista-personagens {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    text-align: left;
+    width: fit-content;
+    margin-left: 20px;
+}
+
+
+.lista-personagens li {
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.lista-personagens a {
+    color: #66ccff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    text-shadow: 0 0 5px #66ccff;
+}
+
+.lista-personagens a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px #66ccff, 0 0 12px #66ccff;
+}
+
+.barra-pesquisa {
+    text-align: center;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  .barra-pesquisa input {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #00ffff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.9rem;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ccff;
+    outline: none;
+  }
+  
+  .barra-pesquisa input::placeholder {
+    color: #00ccff;
+  }
+  
+  #resultados-pesquisa {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    max-height: 250px;
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    border: 1px solid #00ffff;
+    box-shadow: 0 0 8px #00ffff;
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  #resultados-pesquisa li {
+    padding: 10px;
+    border-bottom: 1px solid #005f6b;
+    cursor: pointer;
+    color: #00ffff;
+  }
+  
+  #resultados-pesquisa li:hover {
+    background-color: rgba(0, 255, 255, 0.1);
+  }
+  
+  
+  
+  
+
+
+

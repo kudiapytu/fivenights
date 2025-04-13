@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+  /* Fundo xadrez não repetido */
+  background-image: url('../imagens/fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+/* Título */
+.freddy-titulo {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 30px 0;
+  color: #FFD700;
+  text-shadow: 0 0 10px #FFD700;
+}
+
+/* Container principal (ligeiramente escuro) */
+.freddy-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);  /* fundo levemente escuro */
+  border: 2px solid #ff0000;              /* borda sólida dourada */
+  border-radius: 15px;
+  box-shadow: 0 0 15px #ff1a1a;
+}
+
+/* Imagem do Freddy */
+.freddy-imagem img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #FFD700;
+}
+
+/* Área de vídeo e texto */
+.freddy-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Vídeo do jumpscare */
+.freddy-video {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #FFD700;
+}
+
+/* Caixa “Como Derrotá-lo” (fundo levemente escuro) */
+.freddy-derrotar {
+  max-width: 400px;
+  background-color: rgba(0, 0, 0, 0.5);  /* fundo levemente escuro */
+  border: 2px dotted #0026ff;             /* pontilhada dourada */
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px #0011ff;
+  text-align: left;
+}
+.freddy-derrotar h2 {
+  margin: 0 0 10px;
+  color: #FFD700;
+  text-shadow: 0 0 5px #FFD700;
+}
+.freddy-derrotar p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Botão Voltar (abaixo da seção) */
+.freddy-voltar {
+  display: block;
+  margin: 20px auto 0;
+  padding: 12px 25px;
+  background-color: #005068;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgb(0, 225, 255), 0 0 20px rgb(0, 238, 255);
+  transition: background 0.3s, transform 0.2s;
+}
+.freddy-voltar:hover {
+  background-color: #03f7ff;
+  transform: scale(1.05);
+}
+
+
+
+  
+  
+  
+  
+
+

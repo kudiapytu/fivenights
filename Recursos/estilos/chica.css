@@ -1,0 +1,104 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+  background-image: url('../imagens/fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+/* Título */
+.chica-titulo {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 30px 0;
+  color: #FFE066;
+  text-shadow: 0 0 10px #FFE066;
+}
+
+/* Container principal */
+.chica-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #FFE066;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #FFE066;
+}
+
+/* Imagem da Chica */
+.chica-imagem img {
+  width: 355px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #FFE066;
+}
+
+/* Área de vídeo e texto */
+.chica-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* GIF do jumpscare */
+.chica-video {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #FFE066;
+}
+
+/* Caixa “Como Derrotá-la” */
+.chica-derrotar {
+  max-width: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px dotted #FFE066;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px #FFE066;
+  text-align: left;
+}
+.chica-derrotar h2 {
+  margin: 0 0 10px;
+  color: #FFE066;
+  text-shadow: 0 0 5px #FFE066;
+}
+.chica-derrotar p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Botão Voltar */
+.chica-voltar {
+  display: block;
+  margin: 20px auto 0;
+  padding: 12px 25px;
+  background-color: #0a509b;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgb(0, 225, 255), 0 0 20px rgb(0, 183, 255);
+  transition: background 0.3s, transform 0.2s;
+}
+.chica-voltar:hover {
+  background-color: #05d0df;
+  transform: scale(1.05);
+}
+
+  
+
+
